@@ -5,6 +5,8 @@
 
 #navbar {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -17,18 +19,34 @@
 
 }
 
+#awesome {
+    color: white;
+    font: 48px bold #F9FAF8
+}
+
+p {
+    color: #E5E7EB;
+}
+
+#bottomnavcontainer {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
 #leftnav {
-    background-color: purple;
-    height: 60%;
-    display: inline-block;
-    width: 50%;
+    background-color: inherit;
+    height: auto;
+    width: 300px;
+
 }
 
 #rightnav {
-    background-color: pink;
-    height: 60%;
-    display: inline-block;
-    width: 50%;
+    background-color: inherit;
+    height: auto;
+    width: auto;
 
 }
 
@@ -46,9 +64,16 @@
 
 #middle {
     background-color: #e5e7eb;
-
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#middleflex {
+    width: 300px;
+}
+
+
 
 #random_info {
     display: block;
@@ -97,6 +122,17 @@ body {
 .navlistitem {
     display: inline-block;
     margin: 0px 5px;
+}
+
+#quote {
+    font-size: 18;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#author {
+    color: black;
+    justify-self: right;
 }
 
 a {
